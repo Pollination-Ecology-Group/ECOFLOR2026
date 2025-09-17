@@ -205,6 +205,8 @@ h2 {
   font-weight: $headingFontWeight;
   margin-top: $largeMargin;
   color: $blue;
+  text-align: center;
+  
 }
 
 h3 {
@@ -214,6 +216,7 @@ h3 {
   letter-spacing: $headingLetterSpacing;
   font-weight: $headingFontWeight;
   margin-top: $largeMargin;
+  text-align: center;
 }
 
 h4 {
@@ -223,6 +226,7 @@ h4 {
   letter-spacing: $headingLetterSpacing;
   font-weight: $headingFontWeight;
   margin-top: $blockMargin;
+  text-align: center;
 }
 
 h5 {

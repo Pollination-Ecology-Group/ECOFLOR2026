@@ -26,16 +26,14 @@ website:
         text: "Contact"
     right:
       - icon: github
-        href: https://github.com
-      - icon: twitter
-        href: https://twitter.com
-      - href: ../index.html
+        href: https://github.com/Pollination-Ecology-Group/ECOFLOR2026
+      - icon: "mdi--instagram"
   page-footer: 
-    left: "Copyright 2024, Jakub Štenc" 
+    left: "Made by Jakub Štenc" 
     right: 
       - icon: github
         href: https://github.com/
-      - icon: twitter 
+      - icon: discord 
         href: https://twitter.com/ 
 #  announcement:
 #    icon: info-circle
