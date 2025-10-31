@@ -27,14 +27,21 @@ website:
     right:
       - icon: github
         href: https://github.com/Pollination-Ecology-Group/ECOFLOR2026
-      - icon: "mdi--instagram"
+      - icon: discord 
+        href: https://discord.gg/Ser2GRXgns  
+      - icon: whatsapp
+        href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t      
   page-footer: 
     left: "Made by Jakub Štenc" 
     right: 
       - icon: github
         href: https://github.com/
       - icon: discord 
-        href: https://twitter.com/ 
+        href: https://discord.gg/Ser2GRXgns
+      - icon: instagram
+        href: https://www.instagram.com/ecoflor2026/
+      - icon: whatsapp
+        href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t
 #  announcement:
 #    icon: info-circle
 #    dismissable: true
@@ -53,4 +60,4 @@ format:
     code-overflow: scroll
     linkcolor: rgb(97,30,30)
     background: rgb(255,244,224)
-    toc-depth: 2
+    toc-depth: 3
