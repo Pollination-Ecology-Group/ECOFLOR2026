@@ -58,15 +58,13 @@ All contributions should be in English to promote discussion and interaction wit
 </div>
 
 :::::::::::: {style="style"}
-<div>
-
+::: {style="text-align: center;"}
 ### Registration and abstract submission are now open until November 30th.
 
 Submit your oral or poster contribution in the form.
 
 [Registration form here](https://docs.google.com/forms/d/1vKq5S5Cm2qB0_3n6bN_rPXYxbc_ndYYX6-_Sn8utHqg/viewform?edit_requested=true){.btn .btn-danger}
-
-</div>
+:::
 
 :::::::::: {#registration_info style="text-align: justify;"}
 ::: {style="text-align: center;"}
