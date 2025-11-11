@@ -43,6 +43,8 @@ All contributions should be in English to promote discussion and interaction wit
 
 🧗 [Field trip] on 14th February
 
+🍽 [Conference dinner](#dinner) on 12th February, \~40€ per person
+
 ✉️ [Registration] until **November 30th, 2025**
 
 📞 [Contact](#contact) via [WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t), [Discord](https://discord.gg/Ser2GRXgns) or [email](#contact)
@@ -140,7 +142,7 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ### Thursday 12th February
 :::
 
-::: {style="text-align: justify;"}
+::: {#12th style="text-align: justify;"}
 -   8:00 - 8:30 Registration
 -   8:30 - 9:00 Opening ceremony
 -   9:00 - 10:00 Oral presentations
@@ -373,7 +375,7 @@ Another fantastic option is to have lunch in [Mercat de Tortosa](https://share.g
 
 If you go there, you simply HAVE TO go to [Bar Ester](https://share.google/IO2bF2TtQjZKNY2v5). They are simply the best. Try the traditional “abadejo” (cod), eels, cap-i-pota, artichoke omelette, and so on (everything local).
 
-::: {style="text-align: center;"}
+::: {#dinner style="text-align: center;"}
 ### Where to have dinner and beers
 :::
 
@@ -387,7 +389,7 @@ Anything there and between these streets will be fine.
 
 Remember to join the Whatsapp group [ECOFLOR Dark-Side](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t) for further information (floral ecology and evolution continue at night!).
 
-The Conference Dinner will take place on [Thursday 12th February], at a restaurant specialized in traditional and local food. Price will be \~50€ per person"
+The Conference Dinner will take place on [Thursday 12th February], at a restaurant specialized in traditional and local food. Price will be \~40€ per person"
 
 ::: {style="text-align: center;"}
 ### What to visit
