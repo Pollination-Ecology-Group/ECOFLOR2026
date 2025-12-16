@@ -42,13 +42,13 @@ website:
         href: https://www.instagram.com/ecoflor2026/
       - icon: whatsapp
         href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t
-#  announcement:
-#    icon: info-circle
-#    dismissable: true
-#    content: ""
-#    type: light
-#    position: below-navbar
-#  back-to-top-navigation: true
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Registration is now closed! Stay tuned for updates on the programme."
+    type: light
+    position: below-navbar
+  back-to-top-navigation: true
 
 format:
   html:

@@ -45,7 +45,7 @@ All contributions should be in English to promote discussion and interaction wit
 
 🍽 [Conference dinner](#dinner) on 12th February, \~40€ per person
 
-✉️ [Registration] until **November 30th, 2025**
+✉️ [Registration] until November 30th, 2025, **currently closed.**
 
 📞 [Contact](#contact) via [WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t), [Discord](https://discord.gg/Ser2GRXgns) or [email](#contact)
 :::
@@ -61,11 +61,7 @@ All contributions should be in English to promote discussion and interaction wit
 
 :::::::::::: {style="style"}
 ::: {style="text-align: center;"}
-### Registration and abstract submission are now open until November 30th.
-
-Submit your oral or poster contribution in the form.
-
-[Registration form here](https://docs.google.com/forms/d/1vKq5S5Cm2qB0_3n6bN_rPXYxbc_ndYYX6-_Sn8utHqg/viewform?edit_requested=true){.btn .btn-danger}
+### Registration is closed!
 :::
 
 :::::::::: {#registration_info style="text-align: justify;"}
