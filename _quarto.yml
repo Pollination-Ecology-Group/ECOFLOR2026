@@ -56,7 +56,7 @@ format:
     monofont: Fira Code
     highlight-style: arrow
     css: [custom_theme.scss]
-    toc: false
+    toc: true
     code-overflow: scroll
     linkcolor: rgb(97,30,30)
     background: rgb(255,244,224)
