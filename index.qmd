@@ -1,10 +1,10 @@
 ---
-toc: true
 title: "ECOFLOR 2026"
 format: 
   html: 
     sidebar: true
-    anchor-sections: true
+    toc: true
+
 ---
 
 <meta name="google-site-verification" content="_ALkyF3YuAHp5-OSHb0UI4JC0hCsn1ce9XL8cUxTKk8" />
@@ -119,10 +119,8 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ::::::::::
 ::::::::::::
 
-:::::::::::::: {#program}
-::: {style="text-align: center;"}
-## Programme
-:::
+::: {#programme}
+## Programme {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
 ### Wednesday 11th February
@@ -186,7 +184,7 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ::::::::::::::
 
 ::: {#keynote}
-### Keynote speakers {style="text-align: center;"}
+### Keynote speakers {style="text-align: center;".unlisted}
 
 \vspace{2em}
 :::
@@ -583,19 +581,14 @@ MSc student in Ecology, Management and Restoration of the Natural Environment at
 ::::::::::::::::::::::::::::::::::::::::::::::::::
 :::::::::::::: {#contact}
 
-<div>
+## Contact {style="text-align: center;"}
 
-:::: {#contact style="text-align: center;"}
-## Contact
+::: {style="text-align: center;"}
+**ecoflor2026@gmail.com**
 
-::: {#Email style="text-align: center;"}
-# ecoflor2026\@gmail.com
+**[WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t)**
+
+**[Discord](https://discord.gg/Ser2GRXgns)**
 :::
 
-# [WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t)
-
-# [Discord](https://discord.gg/Ser2GRXgns)
-::::
-
-</div>
-:::::::::::::: 
+::::::::::::::

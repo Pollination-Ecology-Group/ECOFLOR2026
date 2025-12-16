@@ -16,7 +16,7 @@ website:
         text: "About" 
       - href: index.qmd#registration
         text: "Registration"     
-      - href: index.qmd#program
+      - href: index.qmd#programme
         text: "Programme"
       - href: index.qmd#venue
         text: "Venue" 
@@ -49,6 +49,7 @@ website:
     type: light
     position: below-navbar
   back-to-top-navigation: true
+  cookie-consent: true
 
 format:
   html:
@@ -61,4 +62,4 @@ format:
     code-overflow: scroll
     linkcolor: rgb(97,30,30)
     background: rgb(255,244,224)
-    toc-depth: 3
+    theme: cosmo
