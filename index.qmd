@@ -581,8 +581,8 @@ MSc student in Ecology, Management and Restoration of the Natural Environment at
 
 </div>
 ::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::: {#contact}
 
-:::::: ::::::::::
 <div>
 
 :::: {#contact style="text-align: center;"}
@@ -598,7 +598,4 @@ MSc student in Ecology, Management and Restoration of the Natural Environment at
 ::::
 
 </div>
-::::::
-
-::: ::::::::::
-:::
+:::::::::::::: 

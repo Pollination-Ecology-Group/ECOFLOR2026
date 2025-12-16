@@ -57,6 +57,7 @@ format:
     highlight-style: arrow
     css: [custom_theme.scss]
     toc: true
+    smooth-scroll: true
     code-overflow: scroll
     linkcolor: rgb(97,30,30)
     background: rgb(255,244,224)
