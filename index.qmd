@@ -4,7 +4,6 @@ format:
   html: 
     sidebar: true
     toc: true
-
 ---
 
 <meta name="google-site-verification" content="_ALkyF3YuAHp5-OSHb0UI4JC0hCsn1ce9XL8cUxTKk8" />
@@ -119,7 +118,7 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ::::::::::
 ::::::::::::
 
-::: {#programme}
+::::::::::::: {#programme}
 ## Programme {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
@@ -181,10 +180,10 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 
 </div>
 ::::
-::::::::::::::
+:::::::::::::
 
 ::: {#keynote}
-### Keynote speakers {style="text-align: center;".unlisted}
+### Keynote speakers {.unlisted style="text-align: center;"}
 
 \vspace{2em}
 :::
@@ -579,16 +578,39 @@ MSc student in Ecology, Management and Restoration of the Natural Environment at
 
 </div>
 ::::::::::::::::::::::::::::::::::::::::::::::::::
-:::::::::::::: {#contact}
 
+:::: {#acknowledgements}
+## Acknowledgements {style="text-align: center;"}
+
+::: {style="text-align: center;"}
+We thank the following organisations for support and funding:
+
+[![](images/logos/AEET.png){fig-align="center" width="150"}](https://www.aeet.org/es/english/)
+
+**AEET - Asociación Española de Ecología Terrestre**
+
+[![](images/logos/ports.jpg){fig-align="center" width="150"}](https://parcsnaturals.gencat.cat/es/xarxa-de-parcs/ports/inici/)
+
+**Parc Natural dels Ports**
+
+[![](images/logos/delta.jpg){fig-align="center" width="150"}](https://parcsnaturals.gencat.cat/es/xarxa-de-parcs/delta-de-lebre/inici/)
+
+**Part Natural del Delta de l'Ebree**
+
+[![](images/logos/logotiphoritzontaltransppetita.png){fig-align="center" width="150"}](https://www.tortosa.cat/)
+
+**Ajuntament de Tortosa**
+:::
+::::
+
+:::: {#contact}
 ## Contact {style="text-align: center;"}
 
 ::: {style="text-align: center;"}
-**ecoflor2026@gmail.com**
+**ecoflor2026\@gmail.com**
 
-**[WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t)**
+[**WhatsApp group chat**](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t)
 
-**[Discord](https://discord.gg/Ser2GRXgns)**
+[**Discord**](https://discord.gg/Ser2GRXgns)
 :::
-
-::::::::::::::
+::::

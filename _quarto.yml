@@ -21,7 +21,10 @@ website:
       - href: index.qmd#venue
         text: "Venue" 
       - href: index.qmd#organisation
-        text: "Organisation committee"         
+        text: "Organisation committee"  
+      - href: index.qmd#acknowledgements
+        text: "Acknowledgements"  
+        
       - href: index.qmd#contact
         text: "Contact"
     right:
