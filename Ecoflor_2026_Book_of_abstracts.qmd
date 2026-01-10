@@ -5,9 +5,28 @@ format:
     toc: true
     theme: cosmo
   pdf:
-    toc: true
+    toc: false
     number-sections: false
     colorlinks: true
+    keep-tex: true
+    pdf-engine: xelatex
+    # mainfont: "Roboto"
+    # sansfont: "Lato"
+    # monofont: "Fira Code"
+    linkcolor: "primaryorange"
+    filecolor: "primaryorange"
+    citecolor: "primaryorange"
+    urlcolor: "primaryorange"
+    include-in-header:
+      text: |
+        \usepackage{sectsty}
+        \usepackage{xcolor}
+        \definecolor{primaryorange}{HTML}{E06E53}
+        \definecolor{secondaryorange}{HTML}{B8573E}
+        \sectionfont{\color{primaryorange}\sffamily}
+        \subsectionfont{\color{secondaryorange}\sffamily}
+        \subsubsectionfont{\color{secondaryorange}\sffamily}
+        \let\maketitle\relax
 ---
 
 ```{r}
@@ -40,6 +59,7 @@ sorted_data <- data_raw %>%
     Title             = `Presentation_title`,
     Presenter         = `Names`,
     Authors           = `Authors`,
+    Affiliation       = `Affiliated Institution`,
     
     # The new column where you pasted the text
     Abstract_Text_Presentation     = `Abstract_presentations_text` 
@@ -56,7 +76,25 @@ sorted_data <- data_raw %>%
 
 
 
+
+::: {.content-visible when-format="pdf"}
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\Huge \textbf{ECOFLOR 2026: Book of Abstracts} \par}
+\vspace{1.5cm}
+\includegraphics[width=0.5\textwidth]{images/logo_without_bakground_small.png}
+\vfill
+{\Large \today \par}
+\end{titlepage}
+
+\newpage
+\tableofcontents
+\newpage
+:::
+
 Welcome to the ECOFLOR 2026 Book of Abstracts.
+
 
 
 ```{r}
@@ -83,7 +121,16 @@ for (sess in sessions) {
     cat(paste0("### ", row$Title, "\n\n"))
     
     # 2. Presenter
-    cat(paste0("**Presenter:** ", row$Presenter, "\n\n"))
+    cat(paste0("**Presenter:** ", row$Presenter))
+    
+    cat("\n\n")
+    
+    # 2. Affiliation
+    if (!is.na(row$Affiliation) && nzchar(row$Affiliation)) {
+       cat(paste0("**Affiliation:** ", row$Affiliation, "\n\n"))
+    }
+
+    cat("\n\n")
     
     # 3. Authors (Check if exists)
     if (!is.na(row$Authors) && nzchar(row$Authors)) {
