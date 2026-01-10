@@ -1,0 +1,110 @@
+---
+title: "ECOFLOR 2026: Book of Abstracts"
+format:
+  html:
+    toc: true
+    theme: cosmo
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(knitr)
+library(googlesheets4)
+
+# 1. AUTHENTICATE
+gs4_deauth()
+
+# 2. READ DATA
+sheet_url <- "https://docs.google.com/spreadsheets/d/1zsfhYz32GoeKz8qzaHgDKsc-InRxitIsdnc9JWG-4OU/edit?usp=sharing"
+
+# Read as text to avoid errors
+data_raw <- read_sheet(sheet_url, col_types = "c")
+
+# 3. SELECT & RENAME
+# Mapping your specific columns to the variables the script needs
+sorted_data <- data_raw %>%
+  select(
+    # --- MANUAL SORTING COLUMNS (You must have these!) ---
+    Session_ID        = `Session_ID`,
+    Session_Name      = `Session_Name`,
+    Talk_Order        = `Talk_Order`,
+    
+    # --- CONTENT COLUMNS (Based on your list) ---
+    Title             = `Presentation_title`,
+    Presenter         = `Names`,
+    Authors           = `Authors`,
+    
+    # The new column where you pasted the text
+    Abstract_Text_Presentation     = `Abstract_presentations_text` 
+  ) %>%
+  mutate(
+    # Convert IDs to numbers for sorting
+    Session_ID = as.numeric(Session_ID),
+    Talk_Order = as.numeric(Talk_Order)
+  ) %>%
+  # Filter out rows that haven't been assigned a session yet
+  filter(!is.na(Session_ID)) %>%
+  arrange(Session_ID, Talk_Order)
+```
+
+
+
+Welcome to the ECOFLOR 2026 Book of Abstracts.
+
+
+```{r}
+#| label: render-abstracts
+#| echo: false
+#| results: asis
+
+# Get list of sessions in order
+sessions <- unique(sorted_data$Session_Name)
+
+for (sess in sessions) {
+  
+  # PRINT SESSION HEADER
+  cat(paste0("\n# ", sess, "\n\n"))
+  
+  # Filter talks for this session
+  current_session_data <- sorted_data[sorted_data$Session_Name == sess, ]
+  
+  # LOOP THROUGH TALKS
+  for (i in 1:nrow(current_session_data)) {
+    row <- current_session_data[i, ]
+    
+    # 1. Title
+    cat(paste0("### ", row$Title, "\n\n"))
+    
+    # 2. Presenter
+    cat(paste0("**Presenter:** ", row$Presenter, "\n\n"))
+    
+    # 3. Authors (Check if exists)
+    if (!is.na(row$Authors) && nzchar(row$Authors)) {
+       cat(paste0("**Authors:** ", row$Authors, "\n\n"))
+    }
+    
+    # 4. Abstract Text (Check if exists)
+    if (!is.na(row$Abstract_Text_Presentation)) {
+      cat(paste0(row$Abstract_Text_Presentation, "\n\n"))
+    }
+    
+    # 5. Separator
+    cat("---\n\n")
+  }
+}
+```
+
+
+
+
+
+
+
+
