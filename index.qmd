@@ -601,7 +601,7 @@ We thank the following organisations for support and funding:
 
 **Ajuntament de Tortosa**
 
-[![](images/logos/Logo-Diputació-de-Tarragona.png){fig-align="center" width="150"}](https://www.tortosa.cat/)
+[![](images/logos/Logo-Diputació-de-Tarragona.png){fig-align="center" width="150"}](https://www.dipta.cat/)
 
 Diputació de Tarragona
 :::
