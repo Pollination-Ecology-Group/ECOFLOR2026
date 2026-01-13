@@ -600,6 +600,10 @@ We thank the following organisations for support and funding:
 [![](images/logos/logotiphoritzontaltransppetita.png){fig-align="center" width="150"}](https://www.tortosa.cat/)
 
 **Ajuntament de Tortosa**
+
+[![](images/logos/diputacio.png){fig-align="center" width="150"}](https://www.tortosa.cat/)
+
+Diputació de Tarragona
 :::
 ::::
 
