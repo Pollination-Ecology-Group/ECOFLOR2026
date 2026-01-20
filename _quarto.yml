@@ -35,7 +35,13 @@ website:
       - icon: discord 
         href: https://discord.gg/Ser2GRXgns  
       - icon: whatsapp
-        href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t      
+        href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t
+      - icon: instagram
+        href: https://www.instagram.com/ecoflor2026/      
+      - icon: images/bluesky.svg
+        href: https://bsky.app/profile/ecoflor.bsky.social
+      - icon: envelope
+        href: mailto:ecoflor2026@gmail.com      
   page-footer: 
     left: "Made by Jakub Štenc" 
     right: 
