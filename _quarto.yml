@@ -4,6 +4,8 @@ project:
   render:
     - "*.qmd"
     - "!archive/"
+  resources:
+    - "images/bluesky.svg"
   post-render:
     - cp googleb16326ba55692535.html docs/googleb16326ba55692535.html
   
@@ -38,7 +40,7 @@ website:
         href: https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t
       - icon: instagram
         href: https://www.instagram.com/ecoflor2026/      
-      - icon: images/bluesky.svg
+      - text: '<img src="images/bluesky.svg" width="20" height="20" style="vertical-align: middle; padding-bottom: 2px;">'
         href: https://bsky.app/profile/ecoflor.bsky.social
       - icon: envelope
         href: mailto:ecoflor2026@gmail.com      
