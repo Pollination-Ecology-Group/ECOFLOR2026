@@ -47,6 +47,7 @@ All contributions should be in English to promote discussion and interaction wit
 ✉️ [Registration] until November 30th, 2025, **currently closed.**
 
 📞 [Contact](#contact) via [WhatsApp group chat](https://chat.whatsapp.com/KCycNVzqLEm1orgBQGjrQ2?mode=ems_copy_t), [Discord](https://discord.gg/Ser2GRXgns) or [email](#contact)
+
 :::
 :::::
 
@@ -121,62 +122,35 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ::::::::::::: {#programme}
 ## Programme {style="text-align: center;"}
 
-::: {style="text-align: center;"}
-### Wednesday 11th February
-:::
+Programme can be found [here](documents/ECOFLOR2026_programme_V3.pdf).
+Programme of oral presentations can be found [here](documents/ECOFLOR2026_OP_programme_v10.pdf) and programme of poster presentations can be found [here](documents/ECOFLOR2026_PS_programme_v6.pdf).
 
-::: {style="text-align: justify;"}
--   [Workshops]:
-    -   10:00 - 13:00 [Nesting traps for cavity-nesting bees and wasps in ecological studies: biology, ecology, materials and methods]
-    -   15:00 - 18:00 [Perspectives in plant-pollinator systems research in the new era of Nature Restoration]
-:::
-
-::: {style="text-align: center;"}
-### Thursday 12th February
-:::
-
-::: {#12th style="text-align: justify;"}
--   8:00 - 8:30 Registration
--   8:30 - 9:00 Opening ceremony
--   9:00 - 10:00 Opening lecture [Dr. Constantí Stefanescu] + oral presentations
--   10:00 - 10:30 - Coffee break + Poster session
--   10:30 - 12:00 Oral presentations
--   12:00 - 13:00 Plenary talk
--   13:00 - 15:00 Lunch
--   15:00 - 16:30 Oral presentations
--   16:30 - 18:00 Oral presentations
--   18:00 - 19:00 Coffee goodbye + Poster session
--   21:00 Conference dinner
-:::
+![ECOFLOR 2026 Programme](documents/jpg/ECOFLOR2026_programme_V3/ECOFLOR2026_programme_V3_page-0001.jpg){width="100%"}
 
 
 ::: {style="text-align: center;"}
-### Friday 13th February
+### Oral presentations programme
 :::
-
-::: {#13th style="text-align: justify;"}
--   9:00 - 10:00 Oral presentations
--   10:00 - 10:30 - Coffee break + Poster session
--   10:30 - 12:00 Oral presentations
--   12:00 - 13:00 Plenary talk
--   13:00 - 15:00 Lunch
--   15:00 - 16:30 Oral presentations
--   16:30 - 18:00 Oral presentations
--   18-19 Coffee goodbye + Poster session
--   19:00 - 19:30 Closing ceremony
-:::
-
+![ECOFLOR 2026 Oral presentations programme](documents/jpg/ECOFLOR2026_OP_programme_v10/ECOFLOR2026_OP_programme_v10_page-0001.jpg){width="100%"}
+![ECOFLOR 2026 Oral presentations programme](documents/jpg/ECOFLOR2026_OP_programme_v10/ECOFLOR2026_OP_programme_v10_page-0002.jpg){width="100%"}
 
 ::: {style="text-align: center;"}
-### Saturday 14th February
+### Poster presentations programme
 :::
+![ECOFLOR 2026 Poster presentations programme](documents/jpg/ECOFLOR2026_PS_programme_v6/ECOFLOR2026_PS_programme_v6_page-0001.jpg){width="100%"}
+![ECOFLOR 2026 Poster presentations programme](documents/jpg/ECOFLOR2026_PS_programme_v6/ECOFLOR2026_PS_programme_v6_page-0002.jpg){width="100%"}
 
-:::: {style="text-align: justify;"}
-
-[Field trip] 8-18h
-
-::::
 :::::::::::::
+
+::: {#voting style="text-align: center;"}
+### Vote for the Best Presentation {data-link="Vote"}
+:::
+
+Please vote for the best student oral and poster presentation!
+
+![](images/qrcode_forms.gle.png){width=300 fig-align="center"}
+
+\
 
 ::: {#keynote}
 ### Keynote speakers {.unlisted style="text-align: center;"}
