@@ -122,10 +122,10 @@ Workshops will occur in the venue, [Centre Cívic Ferreries](https://maps.app.go
 ::::::::::::: {#programme}
 ## Programme {style="text-align: center;"}
 
-Programme can be found [here](documents/ECOFLOR2026_programme_V3.pdf).
+Programme can be found [here](documents/ECOFLOR2026_programme_v4.pdf).
 Programme of oral presentations can be found [here](documents/ECOFLOR2026_OP_programme_v10.pdf) and programme of poster presentations can be found [here](documents/ECOFLOR2026_PS_programme_v6.pdf).
 
-![ECOFLOR 2026 Programme](documents/jpg/ECOFLOR2026_programme_V3/ECOFLOR2026_programme_V3_page-0001.jpg){width="100%"}
+![ECOFLOR 2026 Programme](documents/jpg/ECOFLOR2026_programme_V4/ECOFLOR2026_programme_v4_page-0001.jpg){width="100%"}
 
 
 ::: {style="text-align: center;"}

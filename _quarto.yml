@@ -64,7 +64,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "The programme can be found [here](documents/ECOFLOR2026_programme_V3.pdf), oral presentations [here](documents/ECOFLOR2026_OP_programme_v10.pdf) and poster presentations [here](documents/ECOFLOR2026_PS_programme_v6.pdf)."
+    content: "The programme can be found [here](documents/ECOFLOR2026_programme_v4.pdf), oral presentations [here](documents/ECOFLOR2026_OP_programme_v10.pdf) and poster presentations [here](documents/ECOFLOR2026_PS_programme_v6.pdf)."
     type: light
     position: below-navbar
   back-to-top-navigation: true
