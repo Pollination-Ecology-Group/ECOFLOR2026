@@ -141,12 +141,12 @@ build_certificate_html <- function(body_html,
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12mm 20mm 4mm;
+    padding: 8mm 20mm 3mm;
     border-bottom: 1px solid #e0cba0;
   }
   .header img {
-    height: 42mm;
-    max-width: 70mm;
+    height: 30mm;
+    max-width: 60mm;
     object-fit: contain;
   }
   .header-center {
@@ -186,37 +186,37 @@ build_certificate_html <- function(body_html,
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2mm 30mm;
+    padding: 1mm 28mm;
     text-align: center;
-    line-height: 1.6;
+    line-height: 1.45;
   }
 
   .cert-title {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 13pt;
-    letter-spacing: 4px;
+    font-size: 10.5pt;
+    letter-spacing: 3px;
     text-transform: uppercase;
     color: #C8882A;
-    margin-bottom: 4mm;
+    margin-bottom: 2.5mm;
     border-bottom: 1px solid #e0cba0;
-    padding-bottom: 2mm;
-    width: 70%;
+    padding-bottom: 1.5mm;
+    width: 80%;
   }
 
   .cert-body {
-    font-size: 12pt;
+    font-size: 10.5pt;
     color: #333;
-    max-width: 85%;
+    max-width: 90%;
   }
 
   .cert-name {
-    font-size: 16pt;
+    font-size: 14pt;
     font-weight: 600;
     color: #1a1a1a;
     font-style: italic;
     display: block;
-    margin: 3mm 0;
+    margin: 2mm 0;
   }
 
   .cert-institution {
@@ -226,7 +226,7 @@ build_certificate_html <- function(body_html,
   }
 
   .cert-pres-title {
-    font-size: 11.5pt;
+    font-size: 10pt;
     font-style: italic;
     color: #2c2c2c;
     font-weight: 600;
@@ -238,11 +238,11 @@ build_certificate_html <- function(body_html,
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-    font-size: 8pt;
+    font-size: 7.5pt;
     letter-spacing: 2px;
-    padding: 2px 10px;
+    padding: 2px 9px;
     border-radius: 2px;
-    margin: 2mm 0;
+    margin: 1.5mm 0;
     text-transform: uppercase;
   }
 
@@ -253,7 +253,7 @@ build_certificate_html <- function(body_html,
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    padding: 3mm 22mm 12mm;
+    padding: 2mm 22mm 9mm;
     border-top: 1px solid #e0cba0;
   }
 
@@ -419,7 +419,8 @@ message("  Done. PDFs saved to: ", att_dir)
 message("\n--- [2/3] Presentation Certificates ---")
 
 pres_type_col <- intersect(c("Presentation"), names(data_raw))[1]
-title_col <- intersect(c("Presentation_title", "Presentation title"), names(data_raw))[1]
+title_col_oral <- intersect(c("Presentation_title", "Presentation title"), names(data_raw))[1]
+title_col_poster <- intersect(c("Presentation title poster", "Presentation_title_poster"), names(data_raw))[1]
 authors_col <- intersect(c("Authors", "Authors poster", "Authors  poster"), names(data_raw))[1]
 
 pres_data <- data_raw %>%
@@ -429,10 +430,19 @@ pres_data <- data_raw %>%
     str_detect(.data[[pres_type_col]], regex("oral|poster", ignore_case = TRUE))
   ) %>%
   mutate(
-    name       = if (!is.na(name_col)) .data[[name_col]] else NA_character_,
-    pres_type  = if (!is.na(pres_type_col)) .data[[pres_type_col]] else NA_character_,
-    pres_title = if (!is.na(title_col)) .data[[title_col]] else NA_character_,
-    authors    = if (!is.na(authors_col)) .data[[authors_col]] else NA_character_
+    name = if (!is.na(name_col)) .data[[name_col]] else NA_character_,
+    pres_type = if (!is.na(pres_type_col)) .data[[pres_type_col]] else NA_character_,
+    # For oral presentations use the oral-title column;
+    # for posters use the poster-title column (falls back to oral-title if absent).
+    pres_title = case_when(
+      str_detect(
+        ifelse(!is.na(pres_type_col), .data[[pres_type_col]], ""),
+        regex("poster", ignore_case = TRUE)
+      ) & !is.na(title_col_poster) ~ .data[[title_col_poster]],
+      !is.na(title_col_oral) ~ .data[[title_col_oral]],
+      TRUE ~ NA_character_
+    ),
+    authors = if (!is.na(authors_col)) .data[[authors_col]] else NA_character_
   ) %>%
   select(name, pres_type, pres_title, authors) %>%
   filter(!is.na(name), nzchar(name))
