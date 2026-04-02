@@ -106,8 +106,10 @@ sorted_data <- data_raw %>%
 
 The ECOFLOR 2026 Book of Abstracts. 
 
-::: {.content-visible when-format="html" style="text-align: center"}
+::: {.content-visible when-format="html"}
+::: {.text-center}
 [Download PDF](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf){.btn .btn-primary}
+:::
 :::
 
 ::: {.content-visible when-format="pdf"}
