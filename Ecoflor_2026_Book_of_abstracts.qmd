@@ -105,7 +105,14 @@ sorted_data <- data_raw %>%
 :::
 
 The ECOFLOR 2026 Book of Abstracts. 
-The book may be downloaded as a PDF file from the [ECOFLOR 2026 website](https://pollination-ecology-group.github.io/ECOFLOR2026/).
+
+::: {.content-visible when-format="html"}
+[Download PDF](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf){.btn .btn-primary}
+:::
+
+::: {.content-visible when-format="pdf"}
+The book may be downloaded as a PDF file from the [ECOFLOR 2026 website](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf).
+:::
 
 # Scientific Committee {style="text-align: center"}
 
