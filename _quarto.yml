@@ -64,7 +64,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Dowland the book of abstract in PDF[here](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf)."
+    content: "Dowland the book of abstract in PDF [here](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf)."
     type: light
     position: below-navbar
   back-to-top-navigation: true
