@@ -64,7 +64,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "The programme can be found [here](documents/ECOFLOR2026_programme_v5.pdf), oral presentations [here](documents/ECOFLOR2026_OP_programme_v10.pdf) and poster presentations [here](documents/ECOFLOR2026_PS_programme_v6.pdf)."
+    content: "Dowland the book of abstract in PDF[here](https://pollination-ecology-group.github.io/ECOFLOR2026/Ecoflor_2026_Book_of_abstracts.pdf)."
     type: light
     position: below-navbar
   back-to-top-navigation: true
